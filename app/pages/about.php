@@ -1,0 +1,2 @@
+<h1>About ShortnR</h1>
+<p>ShortnR is a little sample application written by <a href="http://blog.maartenballiauw.be">Maarten Balliauw</a>, Technical Evangelist at <a href="http://www.jetbrains.com">JetBrains</a>.</p>

@@ -1,0 +1,24 @@
+application: <appname>
+version: 1
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /img
+  static_dir: public/img
+
+- url: /js
+  static_dir: public/js
+
+- url: /css
+  static_dir: public/css
+
+- url: /_ah/warmup
+  script: app/warmup.php
+
+- url: .*
+  script: app/main.php
+
+inbound_services:
+- warmup
